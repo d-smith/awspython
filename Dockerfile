@@ -1,9 +1,5 @@
 FROM continuumio/anaconda
 
-ENV HTTP_PROXY ${HTTP_PROXY}
-ENV HTTPS_PROXY ${HTTPS_PROXY}
-ENV http_proxy ${HTTP_PROXY}
-ENV https_proxy ${HTTPS_PROXY}
 
 COPY apt.conf /etc/apt/apt.conf
 
